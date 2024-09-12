@@ -4,9 +4,9 @@
 \name{toronto.community.assets-package}
 \alias{toronto.community.assets}
 \alias{toronto.community.assets-package}
-\title{toronto.community.assets: What the Package Does (One Line, Title Case)}
+\title{toronto.community.assets: Provides Toronto Community Asset Database in R}
 \description{
-What the package does (one paragraph).
+The Toronto Community Assets Database is a rough list of all 'community assets' in Toronto. Community assets include social services, community programming, cultural institutions, justice programs, and other services, locations, and programs that are available to the public.
 }
 \seealso{
 Useful links:
@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Thomas McManus \email{tmcmanus@blueprint-ade.ca}
 
 }
 \keyword{internal}
