@@ -4,7 +4,7 @@ library(tidyverse)
 d0 <- read_csv("data-raw/211-community-assets.csv", show_col_types = FALSE)
 
 
-programs <- d0 |> 
+toca24 <- d0 |> 
   janitor::clean_names() |> 
   mutate(
     public_name_modified = public_name |> 
@@ -118,4 +118,4 @@ programs <- d0 |>
     longitude
   )
 
-usethis::use_data(programs, overwrite = TRUE)
+usethis::use_data(toca24, overwrite = TRUE)
